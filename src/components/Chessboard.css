@@ -1,0 +1,36 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    border: 2px solid #000000;
+}
+  
+.square {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+  
+  .light {
+    background-color: #9fd4a4;
+}
+  
+  .dark {
+    background-color: #30804e;
+}
+
+.coord {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    font-weight: bold;
+    color: #000000;
+    user-select: none;
+}
+
+.square.selected {
+    outline: 2px solid #ffe600;
+    z-index: 1;
+    background-color: #cff785;
+}
+  
