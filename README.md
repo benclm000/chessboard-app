@@ -6,6 +6,9 @@ Clicking on any square logs its coordinate to the console and highlights the sel
 ## How To Run
 
 git clone https://github.com/benclm000/chessboard-app.git
+
 cd chessboard-app
+
 npm install
+
 npm run dev
